@@ -1,0 +1,6 @@
+title,price,url,description,rating,task_id,status,instruction,timestamp,execution_time
+Dell Inspiron 15 3000,"₹45,000",https://example.com/dell-inspiron,"Intel Core i5, 8GB RAM, 512GB SSD",4.2,b3a19df5-e247-4261-89c8-5deb4a03a8f2,success,"search laptops under ₹50,000 and list top 5 with price and link",2025-09-28T08:12:14.161990,2.5
+HP Pavilion 15,"₹42,000",https://example.com/hp-pavilion,"AMD Ryzen 5, 8GB RAM, 256GB SSD",4.0,b3a19df5-e247-4261-89c8-5deb4a03a8f2,success,"search laptops under ₹50,000 and list top 5 with price and link",2025-09-28T08:12:14.161990,2.5
+Lenovo IdeaPad 3,"₹38,000",https://example.com/lenovo-ideapad,"Intel Core i3, 4GB RAM, 1TB HDD",3.8,b3a19df5-e247-4261-89c8-5deb4a03a8f2,success,"search laptops under ₹50,000 and list top 5 with price and link",2025-09-28T08:12:14.161990,2.5
+ASUS VivoBook 15,"₹41,000",https://example.com/asus-vivobook,"Intel Core i5, 8GB RAM, 256GB SSD",4.1,b3a19df5-e247-4261-89c8-5deb4a03a8f2,success,"search laptops under ₹50,000 and list top 5 with price and link",2025-09-28T08:12:14.161990,2.5
+Acer Aspire 5,"₹39,000",https://example.com/acer-aspire,"AMD Ryzen 3, 4GB RAM, 256GB SSD",3.9,b3a19df5-e247-4261-89c8-5deb4a03a8f2,success,"search laptops under ₹50,000 and list top 5 with price and link",2025-09-28T08:12:14.161990,2.5

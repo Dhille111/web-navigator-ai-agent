@@ -1,0 +1,2 @@
+task_id,status,instruction,timestamp,execution_time
+08b1f542-c838-4539-b41d-5d099221c59f,error,extract all product information from the current page,2025-09-28T07:15:13.661784,5.201019525527954

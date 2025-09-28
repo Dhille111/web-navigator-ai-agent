@@ -1,0 +1,2 @@
+task_id,status,instruction,timestamp,execution_time
+b65327d7-5f22-4a00-9a63-a0af2055b600,error,navigate to https://example.com and take a screenshot,2025-09-28T07:34:49.791067,9.32876992225647

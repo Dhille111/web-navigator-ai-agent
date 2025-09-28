@@ -1,0 +1,2 @@
+task_id,status,instruction,timestamp,execution_time
+6c6bf17f-10cd-4a09-b001-dce2a960d70b,error,navigate to https://google.com and take a screenshot,2025-09-28T08:34:55.997789,11.327303171157837

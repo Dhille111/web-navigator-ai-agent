@@ -1,0 +1,2 @@
+task_id,status,instruction,timestamp,execution_time
+69cbf317-8c0d-4560-92ef-9ba11722f8e0,error,"search laptops under ₹50,000 and list top 5 with price and link",2025-09-28T07:14:44.823938,4.455472469329834
