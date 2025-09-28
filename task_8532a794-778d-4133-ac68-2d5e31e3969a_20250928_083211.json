@@ -1,0 +1,23 @@
+{
+  "task_id": "8532a794-778d-4133-ac68-2d5e31e3969a",
+  "status": "error",
+  "instruction": "todays top national news",
+  "results": [],
+  "metadata": {
+    "parsed_instruction": {
+      "task": "search",
+      "query": "todays top national news",
+      "filters": {},
+      "count": 5,
+      "fields": [
+        "title",
+        "url"
+      ]
+    },
+    "steps_executed": 7,
+    "results_count": 0
+  },
+  "timestamp": "2025-09-28T08:32:11.446797",
+  "execution_time": 14.781649589538574,
+  "error_message": null
+}

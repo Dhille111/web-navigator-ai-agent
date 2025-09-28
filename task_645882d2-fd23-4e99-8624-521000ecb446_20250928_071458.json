@@ -1,0 +1,23 @@
+{
+  "task_id": "645882d2-fd23-4e99-8624-521000ecb446",
+  "status": "error",
+  "instruction": "navigate to https://example.com and take a screenshot",
+  "results": [],
+  "metadata": {
+    "parsed_instruction": {
+      "task": "navigate",
+      "query": "navigate to https://example.com and take a screenshot",
+      "filters": {},
+      "count": 5,
+      "fields": [
+        "title",
+        "url"
+      ]
+    },
+    "steps_executed": 2,
+    "results_count": 0
+  },
+  "timestamp": "2025-09-28T07:14:58.513061",
+  "execution_time": 4.67641544342041,
+  "error_message": null
+}

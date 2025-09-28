@@ -1,0 +1,23 @@
+{
+  "task_id": "0c7803d4-906a-4ae0-a9c1-cb370fe9c0b8",
+  "status": "error",
+  "instruction": "give the latest top 10 news tech",
+  "results": [],
+  "metadata": {
+    "parsed_instruction": {
+      "task": "search",
+      "query": "give the latest top 10 news tech",
+      "filters": {},
+      "count": 5,
+      "fields": [
+        "title",
+        "url"
+      ]
+    },
+    "steps_executed": 7,
+    "results_count": 0
+  },
+  "timestamp": "2025-09-28T06:42:07.359897",
+  "execution_time": 2.8749430179595947,
+  "error_message": null
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "demo_001",
+  "status": "success",
+  "instruction": "demo instruction",
+  "results": [
+    {
+      "title": "Demo Item 1",
+      "price": "₹1000",
+      "url": "https://example.com/1"
+    },
+    {
+      "title": "Demo Item 2",
+      "price": "₹2000",
+      "url": "https://example.com/2"
+    }
+  ],
+  "metadata": {
+    "demo": true
+  },
+  "timestamp": "2025-09-28T07:12:26.027764",
+  "execution_time": 1.5,
+  "error_message": null
+}

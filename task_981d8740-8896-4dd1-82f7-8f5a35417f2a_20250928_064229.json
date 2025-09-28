@@ -1,0 +1,23 @@
+{
+  "task_id": "981d8740-8896-4dd1-82f7-8f5a35417f2a",
+  "status": "error",
+  "instruction": "search laptops under ₹50,000 and list top 5 with price and link",
+  "results": [],
+  "metadata": {
+    "parsed_instruction": {
+      "task": "search",
+      "query": "search laptops under ₹50,000 and list top 5 with price and link",
+      "filters": {},
+      "count": 5,
+      "fields": [
+        "title",
+        "url"
+      ]
+    },
+    "steps_executed": 7,
+    "results_count": 0
+  },
+  "timestamp": "2025-09-28T06:42:29.777039",
+  "execution_time": 2.8160386085510254,
+  "error_message": null
+}

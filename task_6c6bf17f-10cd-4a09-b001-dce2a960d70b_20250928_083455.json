@@ -1,0 +1,23 @@
+{
+  "task_id": "6c6bf17f-10cd-4a09-b001-dce2a960d70b",
+  "status": "error",
+  "instruction": "navigate to https://google.com and take a screenshot",
+  "results": [],
+  "metadata": {
+    "parsed_instruction": {
+      "task": "navigate",
+      "query": "navigate to https://google.com and take a screenshot",
+      "filters": {},
+      "count": 5,
+      "fields": [
+        "title",
+        "url"
+      ]
+    },
+    "steps_executed": 2,
+    "results_count": 0
+  },
+  "timestamp": "2025-09-28T08:34:55.997789",
+  "execution_time": 11.327303171157837,
+  "error_message": null
+}

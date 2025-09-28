@@ -1,0 +1,23 @@
+{
+  "task_id": "cdf429f0-e464-4c8a-82db-bf0427b4f47d",
+  "status": "error",
+  "instruction": "search for gaming laptops with high ratings",
+  "results": [],
+  "metadata": {
+    "parsed_instruction": {
+      "task": "search",
+      "query": "search for gaming laptops with high ratings",
+      "filters": {},
+      "count": 5,
+      "fields": [
+        "title",
+        "url"
+      ]
+    },
+    "steps_executed": 7,
+    "results_count": 0
+  },
+  "timestamp": "2025-09-28T07:15:27.459166",
+  "execution_time": 5.117828369140625,
+  "error_message": null
+}

@@ -1,0 +1,49 @@
+{
+  "task_id": "b3cfd871-bc00-42df-bbd9-e07baf78b04d",
+  "status": "success",
+  "instruction": "search laptops under ₹50,000 and list top 5 with price and link",
+  "results": [
+    {
+      "title": "Dell Inspiron 15 3000",
+      "price": "₹45,000",
+      "url": "https://example.com/dell-inspiron",
+      "description": "Intel Core i5, 8GB RAM, 512GB SSD",
+      "rating": "4.2"
+    },
+    {
+      "title": "HP Pavilion 15",
+      "price": "₹42,000",
+      "url": "https://example.com/hp-pavilion",
+      "description": "AMD Ryzen 5, 8GB RAM, 256GB SSD",
+      "rating": "4.0"
+    },
+    {
+      "title": "Lenovo IdeaPad 3",
+      "price": "₹38,000",
+      "url": "https://example.com/lenovo-ideapad",
+      "description": "Intel Core i3, 4GB RAM, 1TB HDD",
+      "rating": "3.8"
+    },
+    {
+      "title": "ASUS VivoBook 15",
+      "price": "₹41,000",
+      "url": "https://example.com/asus-vivobook",
+      "description": "Intel Core i5, 8GB RAM, 256GB SSD",
+      "rating": "4.1"
+    },
+    {
+      "title": "Acer Aspire 5",
+      "price": "₹39,000",
+      "url": "https://example.com/acer-aspire",
+      "description": "AMD Ryzen 3, 4GB RAM, 256GB SSD",
+      "rating": "3.9"
+    }
+  ],
+  "metadata": {
+    "demo": true,
+    "mock_data": true
+  },
+  "timestamp": "2025-09-28T07:35:48.552586",
+  "execution_time": 2.5,
+  "error_message": null
+}

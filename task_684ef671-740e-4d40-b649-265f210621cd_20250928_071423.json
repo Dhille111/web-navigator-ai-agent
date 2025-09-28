@@ -1,0 +1,23 @@
+{
+  "task_id": "684ef671-740e-4d40-b649-265f210621cd",
+  "status": "error",
+  "instruction": "top 5 tech news in india",
+  "results": [],
+  "metadata": {
+    "parsed_instruction": {
+      "task": "search",
+      "query": "top 5 tech news in india",
+      "filters": {},
+      "count": 5,
+      "fields": [
+        "title",
+        "url"
+      ]
+    },
+    "steps_executed": 7,
+    "results_count": 0
+  },
+  "timestamp": "2025-09-28T07:14:23.847130",
+  "execution_time": 4.835009813308716,
+  "error_message": null
+}

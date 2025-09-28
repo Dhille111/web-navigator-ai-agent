@@ -1,0 +1,23 @@
+{
+  "task_id": "08b1f542-c838-4539-b41d-5d099221c59f",
+  "status": "error",
+  "instruction": "extract all product information from the current page",
+  "results": [],
+  "metadata": {
+    "parsed_instruction": {
+      "task": "extract",
+      "query": "extract all product information from the current page",
+      "filters": {},
+      "count": 5,
+      "fields": [
+        "title",
+        "url"
+      ]
+    },
+    "steps_executed": 3,
+    "results_count": 0
+  },
+  "timestamp": "2025-09-28T07:15:13.661784",
+  "execution_time": 5.201019525527954,
+  "error_message": null
+}

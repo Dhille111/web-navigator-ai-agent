@@ -1,0 +1,23 @@
+{
+  "task_id": "484e1c9f-334f-4fe6-bd56-43ca2b51dbef",
+  "status": "error",
+  "instruction": "openn amazon",
+  "results": [],
+  "metadata": {
+    "parsed_instruction": {
+      "task": "search",
+      "query": "openn amazon",
+      "filters": {},
+      "count": 5,
+      "fields": [
+        "title",
+        "url"
+      ]
+    },
+    "steps_executed": 7,
+    "results_count": 0
+  },
+  "timestamp": "2025-09-28T07:35:28.380930",
+  "execution_time": 11.960564374923706,
+  "error_message": null
+}
