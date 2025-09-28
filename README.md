@@ -1,83 +1,169 @@
-# web-navigator-ai-agent
+# Local-First AI Agent
 
-## 🚀 Problem Statement
-Build an AI Agent that can take natural language instructions and autonomously drive the web using browser automation (Playwright/Selenium).  
-Example:  
-> "Search for laptops under 50k and list top 5."
+An end-to-end, local-first AI Agent that accepts natural language instructions and autonomously drives a web browser to perform tasks like search, click, form-fill, extract content, and return structured results.
 
-The agent should parse instructions, control a browser, extract useful results, and return them in a structured format.
+## Features
 
----
+- **Local-only operation**: No external cloud APIs or internet LLM calls
+- **Browser automation**: Uses Playwright for reliable web automation
+- **Modular architecture**: Clear separation of components
+- **Robust error handling**: Retry logic, timeouts, and session memory
+- **Multiple interfaces**: CLI and web UI
+- **Export capabilities**: JSON and CSV output
 
-## 💡 Our Solution
-We built an **AI-powered Web Navigator** that:
-1. Accepts natural language commands from the user.
-2. Parses intent + filters into a structured **action plan**.
-3. Uses **Playwright automation** to perform the task on the web.
-4. Returns **structured results** (title, price, link, snippet).
-5. Displays results in a simple web interface with table view and CSV/JSON export.
+## Architecture
 
----
+```
+src/
+├── agent/
+│   ├── llm_adapter.py      # Local LLM interface
+│   ├── parser.py           # Instruction parser
+│   ├── planner.py          # Step planner
+│   ├── orchestrator.py     # Execution orchestrator
+│   ├── browser_controller.py # Playwright wrapper
+│   └── extractor.py        # Content extraction
+├── utils/
+│   └── storage.py          # JSON/CSV export
+├── memory/
+│   └── session_memory.py   # Task memory
+├── prompts/                # LLM prompt templates
+├── app.py                  # Flask web interface
+└── cli.py                  # Command-line interface
+```
 
-## ✨ Unique Features
-- 🗣️ **Voice Command Support (Prototype)**: Speak instead of typing instructions.  
-- 🧩 **Multi-step Workflow Execution**: (Planned) Ability to chain tasks like *“Search laptops under 50k → open first result → scrape specifications”*.  
-- 📊 **Downloadable Results**: Export results as **CSV/JSON** for easy sharing.  
-- ⚡ **Smart Filters**: Automatically detect keywords like *under 50k*, *top 10*, *cheapest*, *latest*.  
-- 🔄 **Cross-Site Search (Future)**: Aggregates results from multiple sources (Google, Amazon, Flipkart).  
-- 🕵️ **Explainable Plan**: Shows the extracted **plan** before running automation (e.g., `{"intent": "search", "subject": "laptops", "price<50000", "top": 5}`).  
-- 🌙 **Dark Mode UI**: Simple toggle for better UX during demo.  
+## Setup
 
----
+### Prerequisites
 
-## 🛠️ Tech Stack
-- **Backend:** Python + FastAPI  
-- **Frontend:** React (Vite)  
-- **Browser Automation:** Playwright  
-- **Instruction Parsing:** Rule-based parser + (optional) Local LLM (Ollama/LangChain)  
-- **Deployment:** Local environment for demo  
+- Python 3.11+
+- Node.js (for Playwright)
+- Local LLM (GPT4All, Ollama, or LLaMA)
 
----
+### Installation
 
-## 👥 Team Members
-- Member 1 – Project Lead & Integrator  
-- Member 2 – Frontend (UI/UX, command input, results table)  
-- Member 3 – Backend (FastAPI APIs)  
-- Member 4 – Browser Automation (Playwright scripts)  
-- Member 5 – Parser + Docs/Video Pitch  
-
----
-
-## 🔑 Features (MVP)
-- ✅ Accepts natural language command  
-- ✅ Parses into intent + filters  
-- ✅ Automates search with Playwright  
-- ✅ Returns top N structured results (title, link, snippet)  
-- ✅ Displays results in table + export option  
-
----
-
-## 🔮 Future Scope
-- Full **voice interaction** (speech-to-text + text-to-speech).  
-- **Advanced multi-step workflows** (navigate, click, scrape deeper).  
-- **Product comparisons** (side-by-side specs).  
-- **Real-time monitoring** (*“Notify me when price drops below 40k”*).  
-- **Browser-in-VM sandbox** for secure automation.  
-
----
-
-## 🖥️ How to Run
-
-### Backend
+1. Clone the repository:
 ```bash
-# Navigate to backend folder
-cd backend
+git clone <repository-url>
+cd local-ai-agent
+```
 
-# Install dependencies
-pip install fastapi uvicorn playwright
+2. Install Python dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-# Install browsers for Playwright
+3. Install Playwright browsers:
+```bash
 playwright install
+```
 
-# Run the backend server
-uvicorn server:app --reload --port 8000
+4. Set up local LLM (choose one):
+   - **GPT4All**: Download model from https://gpt4all.io/
+   - **Ollama**: Install and pull a model: `ollama pull llama2`
+   - **LLaMA**: Download weights and use with transformers
+
+### Configuration
+
+Create a `.env` file:
+```env
+LLM_MODEL_PATH=/path/to/your/model
+LLM_TYPE=gpt4all  # or ollama, llama
+BROWSER_HEADLESS=true
+MEMORY_PERSIST=true
+```
+
+## Usage
+
+### CLI Interface
+
+```bash
+# Run a search task
+python cli.py "search laptops under ₹50,000 and list top 5 with price and link"
+
+# Run with memory persistence
+python cli.py --persist-memory "search gaming laptops"
+
+# Run in headful mode (visible browser)
+python cli.py --headful "fill contact form on example.com"
+```
+
+### Web Interface
+
+1. Start the Flask server:
+```bash
+python app.py
+```
+
+2. Open http://localhost:5000 in your browser
+
+3. Enter your instruction and click "Execute"
+
+### API Endpoints
+
+- `GET /` - Web interface
+- `POST /run` - Execute instruction (JSON)
+- `GET /results/<task_id>` - Get task results
+- `GET /export/<task_id>/csv` - Export results as CSV
+
+## Example Usage
+
+```python
+from src.agent.orchestrator import Orchestrator
+
+# Initialize the agent
+agent = Orchestrator()
+
+# Execute a task
+result = agent.execute("search for best laptops under 50000 rupees")
+
+print(result)
+```
+
+## Testing
+
+Run the test suite:
+```bash
+python -m pytest tests/
+```
+
+Run specific tests:
+```bash
+python -m pytest tests/test_parser.py
+python -m pytest tests/test_integration.py
+```
+
+## Docker
+
+Build and run with Docker:
+```bash
+docker build -t local-ai-agent .
+docker run -p 5000:5000 local-ai-agent
+```
+
+## Troubleshooting
+
+### Common Issues
+
+1. **LLM not responding**: Check model path and ensure it's compatible
+2. **Browser automation fails**: Ensure Playwright is installed
+3. **Memory issues**: Reduce browser context or use headless mode
+4. **Timeout errors**: Increase timeout values in configuration
+
+### Debug Mode
+
+Run with debug logging:
+```bash
+python cli.py --debug "your instruction here"
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests
+5. Submit a pull request
+
+## License
+
+MIT License - see LICENSE file for details

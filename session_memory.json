@@ -1,0 +1,266 @@
+{
+  "memories": [
+    {
+      "id": "8c3dbcd1-1abe-4b2c-b0ce-fe1153130e2e",
+      "instruction": "search for information about Python programming",
+      "result": [],
+      "timestamp": "2025-09-28T06:40:08.579302",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 5.66395378112793,
+        "task_id": "a2d6b551-2229-412f-b541-a470d7d126b9"
+      }
+    },
+    {
+      "id": "2c9e60e9-18d8-41ec-b960-6241e8db6a38",
+      "instruction": "give the latest top 10 news tech",
+      "result": [],
+      "timestamp": "2025-09-28T06:42:07.359047",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 2.8749430179595947,
+        "task_id": "0c7803d4-906a-4ae0-a9c1-cb370fe9c0b8"
+      }
+    },
+    {
+      "id": "3c026261-2e53-43d7-906d-6e6edf7233a3",
+      "instruction": "search laptops under ₹50,000 and list top 5 with price and link",
+      "result": [],
+      "timestamp": "2025-09-28T06:42:29.776286",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 2.8160386085510254,
+        "task_id": "981d8740-8896-4dd1-82f7-8f5a35417f2a"
+      }
+    },
+    {
+      "id": "c1486829-bf63-4848-b72c-d9b50eaa13b5",
+      "instruction": "top 5 tech news in india",
+      "result": [],
+      "timestamp": "2025-09-28T07:14:23.837530",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 4.835009813308716,
+        "task_id": "684ef671-740e-4d40-b649-265f210621cd"
+      }
+    },
+    {
+      "id": "cf69ed83-c912-459e-afb7-a4755743651a",
+      "instruction": "search laptops under ₹50,000 and list top 5 with price and link",
+      "result": [],
+      "timestamp": "2025-09-28T07:14:44.820496",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 4.455472469329834,
+        "task_id": "69cbf317-8c0d-4560-92ef-9ba11722f8e0"
+      }
+    },
+    {
+      "id": "c845eed3-4ac3-4564-8710-a7dc66c52864",
+      "instruction": "navigate to https://example.com and take a screenshot",
+      "result": [],
+      "timestamp": "2025-09-28T07:14:58.509616",
+      "task_type": "navigate",
+      "success": false,
+      "metadata": {
+        "execution_time": 4.67641544342041,
+        "task_id": "645882d2-fd23-4e99-8624-521000ecb446"
+      }
+    },
+    {
+      "id": "9168120b-f9e3-4450-a395-3b88820d5ca6",
+      "instruction": "extract all product information from the current page",
+      "result": [],
+      "timestamp": "2025-09-28T07:15:13.651300",
+      "task_type": "extract",
+      "success": false,
+      "metadata": {
+        "execution_time": 5.201019525527954,
+        "task_id": "08b1f542-c838-4539-b41d-5d099221c59f"
+      }
+    },
+    {
+      "id": "375f9a72-c2c4-4a94-a0a8-5d592cda1c86",
+      "instruction": "search for gaming laptops with high ratings",
+      "result": [],
+      "timestamp": "2025-09-28T07:15:27.449148",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 5.117828369140625,
+        "task_id": "cdf429f0-e464-4c8a-82db-bf0427b4f47d"
+      }
+    },
+    {
+      "id": "40abedd7-670b-4516-b302-de37c658e75d",
+      "instruction": "search laptops under ₹50,000 and list top 5 with price and link",
+      "result": [],
+      "timestamp": "2025-09-28T07:23:24.544422",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 7.51773476600647,
+        "task_id": "f6d6766d-6191-4cdc-ac34-ff3cdf75f712"
+      }
+    },
+    {
+      "id": "ac045613-a06d-40c9-a056-85ce27c19cc9",
+      "instruction": "search laptops under ₹50,000 and list top 5 with price and link",
+      "result": [],
+      "timestamp": "2025-09-28T07:28:23.812134",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 4.606619834899902,
+        "task_id": "434db1e9-e21c-400f-ae76-53d28d8d5b60"
+      }
+    },
+    {
+      "id": "3d4d3e9d-a5ec-4725-97a2-f4d810856ba5",
+      "instruction": "navigate to https://example.com and take a screenshot",
+      "result": [],
+      "timestamp": "2025-09-28T07:34:49.784290",
+      "task_type": "navigate",
+      "success": false,
+      "metadata": {
+        "execution_time": 9.32876992225647,
+        "task_id": "b65327d7-5f22-4a00-9a63-a0af2055b600"
+      }
+    },
+    {
+      "id": "58d40b72-a047-4ee0-91fb-74dafe395f74",
+      "instruction": "openn amazon",
+      "result": [],
+      "timestamp": "2025-09-28T07:35:28.376415",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 11.960564374923706,
+        "task_id": "484e1c9f-334f-4fe6-bd56-43ca2b51dbef"
+      }
+    },
+    {
+      "id": "6aa37bad-f534-467a-a9b2-3dc9c33630bc",
+      "instruction": "show me best mobile in 50000",
+      "result": [],
+      "timestamp": "2025-09-28T07:36:46.171717",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 11.891583681106567,
+        "task_id": "d91d3d29-e1df-4c8b-ae91-4e4be4528051"
+      }
+    },
+    {
+      "id": "107c6037-197a-4144-93c3-7338c70dceca",
+      "instruction": "extract all product information from the current page",
+      "result": [],
+      "timestamp": "2025-09-28T07:37:09.462586",
+      "task_type": "extract",
+      "success": false,
+      "metadata": {
+        "execution_time": 9.197734594345093,
+        "task_id": "14384370-7edd-4ae2-bf93-5d1c51ecbdd9"
+      }
+    },
+    {
+      "id": "f7739233-4e27-47f2-963e-aefc7e71b1f7",
+      "instruction": "todays top national news",
+      "result": [],
+      "timestamp": "2025-09-28T08:32:11.424002",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 14.781649589538574,
+        "task_id": "8532a794-778d-4133-ac68-2d5e31e3969a"
+      }
+    },
+    {
+      "id": "029f7646-edcf-417a-9616-38d4dcbe145d",
+      "instruction": "give the list of under 50k 1000 laptops",
+      "result": [],
+      "timestamp": "2025-09-28T08:33:43.154434",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 10.862553834915161,
+        "task_id": "e10d30a7-1fe8-4ff7-84ff-a70af46823d0"
+      }
+    },
+    {
+      "id": "9ce2737a-bcc0-470d-af70-573cdf6a0318",
+      "instruction": "navigate to https://googlecom and take a screenshot",
+      "result": [],
+      "timestamp": "2025-09-28T08:34:08.474582",
+      "task_type": "navigate",
+      "success": false,
+      "metadata": {
+        "execution_time": 9.765366554260254,
+        "task_id": "a9b7d32c-b72f-44fd-b9e4-28131036ddce"
+      }
+    },
+    {
+      "id": "4128244a-96d9-4251-9c6f-f993b09a84d4",
+      "instruction": "navigate to https://google.com and take a screenshot",
+      "result": [],
+      "timestamp": "2025-09-28T08:34:26.398124",
+      "task_type": "navigate",
+      "success": false,
+      "metadata": {
+        "execution_time": 11.252294540405273,
+        "task_id": "7cd99df8-2bc0-436b-8b93-d1b2c38417cb"
+      }
+    },
+    {
+      "id": "b44cf55e-c613-46e5-8b9f-d5af09431da7",
+      "instruction": "navigate to https://google.com and take a screenshot",
+      "result": [],
+      "timestamp": "2025-09-28T08:34:55.994069",
+      "task_type": "navigate",
+      "success": false,
+      "metadata": {
+        "execution_time": 11.327303171157837,
+        "task_id": "6c6bf17f-10cd-4a09-b001-dce2a960d70b"
+      }
+    },
+    {
+      "id": "946d55ab-a190-4032-9146-dfc079390e28",
+      "instruction": "i want asus laptop under 50k with 16gb ram",
+      "result": [],
+      "timestamp": "2025-09-28T08:45:01.448232",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 14.011041641235352,
+        "task_id": "19fa083b-d4a4-4dbb-a4e0-9bda323c7d1d"
+      }
+    },
+    {
+      "id": "decc924f-ed9b-424a-817c-3701ad694c7c",
+      "instruction": "i want asus company laptop under 50k with 16gb ram",
+      "result": [],
+      "timestamp": "2025-09-28T08:45:36.012346",
+      "task_type": "search",
+      "success": false,
+      "metadata": {
+        "execution_time": 11.645272254943848,
+        "task_id": "d2b27699-f286-4b16-a1fe-59eea3b8b1f7"
+      }
+    }
+  ],
+  "session_context": {
+    "session_id": "db824a99-3fee-4c77-b073-e6e23844e6d4",
+    "start_time": "2025-09-28T06:40:02.910692",
+    "last_activity": "2025-09-28T08:45:36.012361",
+    "total_tasks": 21,
+    "successful_tasks": 0,
+    "failed_tasks": 21,
+    "current_task": null,
+    "preferences": {}
+  }
+}
